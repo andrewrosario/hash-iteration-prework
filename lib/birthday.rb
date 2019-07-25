@@ -7,7 +7,9 @@
 def happy_birthday(birthday_kids)
   # add your code snippet here!
   birthday_kids.each do |key, value|
-    value < 13? puts "Happy Birthday #{key}! You are now #{value} years old!"
+    if value < 13 
+      puts "Happy Birthday #{key}! You are now #{value} years old!"
+    end
   end
 end
 
